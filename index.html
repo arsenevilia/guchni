@@ -342,7 +342,11 @@ footer{padding:50px 5vw 40px;border-top:1px solid var(--line);position:relative;
   .hero-bottom{margin-top:8px;gap:12px}
   .hero h1{max-width:none}
   .hero p.lead{margin-top:4px;font-size:16px;line-height:1.4}
-  .hero-cta{margin-top:8px}
+  .hero-cta{margin-top:14px}
+  /* tighten vertical spread between h1 / lead / cta on mobile */
+  .hero-bottom>div:first-child{justify-content:flex-start;flex:0 0 auto;gap:0}
+  .hero h1{line-height:1.06;margin-bottom:0}
+  .hero p.lead{margin-top:12px}
   .problem,.about,.why,.services,.partners,.cases,.process,.contact{padding-top:64px;padding-bottom:48px}
   .prob,.feat,.stat,.srv,.side,.part{padding:26px}
   .face-card{width:100%}
