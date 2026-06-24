@@ -70,7 +70,7 @@ nav .brand img{height:32px;width:auto;display:block}
 .navlinks a{font-size:11px;padding:8px 11px;border-radius:11px;color:var(--muted);transition:.25s;white-space:nowrap}
 .navlinks a:hover{color:var(--ink);background:rgba(22,19,16,.05)}
 nav .navcta{margin-left:6px;font-size:11px;padding:9px 15px;border-radius:12px;background:var(--orange);color:#fff;font-weight:700;letter-spacing:.04em;transition:.25s;text-transform:uppercase}
-nav .navcta:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(232,115,28,.45)}
+nav .navcta:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(181,72,47,.45)}
 .burger{display:none;background:none;border:0;color:var(--ink);font-size:20px;padding:6px 10px;cursor:pointer}
 
 .wrap{max-width:1280px;margin:0 auto;padding:0 5vw;position:relative;z-index:2}
@@ -91,8 +91,8 @@ h2.sect .accent{color:var(--orange);font-family:Georgia,serif;font-style:italic;
 .btn.primary{border-color:var(--orange);background:var(--orange);color:#fff}
 .btn.primary .ico{border-right-color:rgba(255,255,255,.35)}
 .btn.primary:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(232,115,28,.4)}
-.btn.ghost{background:transparent;color:var(--ink)}
-.btn.ghost:hover{background:rgba(22,19,16,.05);transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:var(--petrol);border:1px solid var(--petrol)}
+.btn.ghost:hover{background:var(--petrol);color:#fff;transform:translateY(-2px)}
 
 /* HERO */
 .hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding-top:120px;padding-bottom:50px}
@@ -103,7 +103,7 @@ h2.sect .accent{color:var(--orange);font-family:Georgia,serif;font-style:italic;
 .hero-bottom{display:flex;flex-wrap:wrap;align-items:stretch;justify-content:space-between;gap:48px;margin-top:56px}
 .hero-bottom>div:first-child{flex:1 1 440px;display:flex;flex-direction:column;justify-content:space-between}
 .hero h1{font-size:clamp(30px,4.4vw,58px);font-weight:800;letter-spacing:-.02em;line-height:1.04;max-width:15ch}
-.hero h1 .or{color:var(--orange)}
+.hero h1 .or{color:var(--petrol)}
 .hero p.lead{color:var(--ink2);font-size:clamp(16px,1.6vw,20px);max-width:46ch;margin-top:20px;line-height:1.5;font-weight:500}
 .hero p.lead b{color:var(--ink);font-weight:800}
 .hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
@@ -183,8 +183,8 @@ h2.sect .accent{color:var(--orange);font-family:Georgia,serif;font-style:italic;
 .srv p{color:var(--muted);font-size:16px;line-height:1.55;max-width:42ch}
 .srv.dark p{color:rgba(255,255,255,.7)}
 .srv .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:26px}
-.srv .tags span{font-size:12px;padding:7px 13px;border-radius:99px;background:rgba(22,19,16,.06);color:var(--ink2);font-weight:600}
-.srv.dark .tags span{background:rgba(255,255,255,.12);color:rgba(255,255,255,.85)}
+.srv .tags span{font-size:12px;padding:7px 13px;border-radius:99px;background:rgba(22,19,16,.06);color:var(--petrol);font-weight:600}
+.srv.dark .tags span{background:rgba(255,255,255,.12);color:var(--turquoise)}
 .srv .go{margin-top:18px;font-size:14px;font-weight:700;color:var(--orange);opacity:0;transform:translateX(-6px);transition:.3s}
 .srv:hover .go{opacity:1;transform:none}
 .srv-list{display:flex;flex-direction:column;gap:18px;margin-top:48px}
@@ -264,11 +264,11 @@ h2.sect .accent{color:var(--orange);font-family:Georgia,serif;font-style:italic;
 .case .ct{font-size:13px;color:var(--orange-bright);font-weight:700;margin-bottom:6px}
 .case .cbody h3{font-size:25px;font-weight:800;letter-spacing:-.02em;line-height:1;color:#fff}
 .case .pill{display:inline-flex;align-items:center;gap:8px;margin-top:16px;padding:8px 14px;border-radius:99px;background:rgba(255,255,255,.14);font-size:13px;font-weight:600;color:#fff;border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(6px)}
-.case .pill .dot{width:8px;height:8px;border-radius:50%;background:var(--orange-bright)}
+.case .pill .dot{width:8px;height:8px;border-radius:50%;background:var(--turquoise)}
 .case .coverlay{position:absolute;inset:0;z-index:3;background:rgba(232,115,28,.95);color:#fff;padding:32px;display:flex;flex-direction:column;justify-content:center;
   opacity:0;transition:.4s;transform:scale(1.02)}
 .case:hover .coverlay{opacity:1;transform:scale(1)}
-.case .co-label{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:14px;opacity:.85}
+.case .co-label{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:14px;color:var(--turquoise)}
 .case .coverlay p{font-size:17px;line-height:1.5;font-weight:600}
 .case .co-go{margin-top:20px;font-size:14px;font-weight:800;letter-spacing:.03em}
 
